@@ -45,7 +45,7 @@
 </head>
 
 <body class="font_css">
-  <header class="container mx-auto bg-slate-50">
+  <header class="container mx-auto bg-gradient-to-b bg-slate-200 bg-slate-50 ">
 <!-- nav -->
     <div class="navbar  ">
       <div class="navbar-start ">
@@ -71,8 +71,9 @@
           </div>
           <ul
           tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1]  shadow">
-          <li class="hover:text-2xl text-slate-900 ease-in-out"><a>Home</a></li>
+          class="menu menu-sm dropdown-content p-4  bg-base-100 rounded-box z-[1]  shadow">
+         
+          <li class="hover:text-2xl text-slate-900 ease-in-out "><a>Home</a></li>
           <li class="hover:text-2xl text-slate-900 ease-in-out"><a>Services</a></li>
           <li class="hover:text-2xl text-slate-900 ease-in-out"><a>Portfolio</a></li>
           <li class="hover:text-2xl text-slate-900 ease-in-out"><a>Blogs</a></li>
@@ -115,16 +116,16 @@
  
   <main class="container mx-auto">
     <!-- about us -->
-    <div class=" ">
+    <div >
 
       <div class=" hero bg-base-300 lg:p-3 relative  ">
 
         <div class="hero-content flex-col flex-col-reverse lg:flex-row-reverse mt-8  ">
 
-          <img class="   " src="./assets/Rectangle.png" class="max-w-full rounded-lg shadow-2xl" />
+          <img class="   " src="./assets/Rectangle.png" class="max-w-full rounded-full lg:rounded-lg shadow-2xl" />
           <div class=" space-y-2 lg:space-y-1">
             <a
-              class="  flex justify-center  lg:justify-start items-center lg:items-center w-8/12 mx-auto lg:mx-0 lg:w-3/12  btn bg-slate-50 text-md lg:text-lg rounded-full  ">
+              class="  flex justify-center  lg:justify-start items-center lg:items-center w-5/12 mx-auto lg:mx-0 lg:w-3/12  btn bg-slate-50 text-md lg:text-lg rounded-full  ">
               <i class="fa-solid fa-arrow-right ml-0 lg:ml-3  "></i> About Us
             </a>
             <h1 class="text-3xl lg:text-6xl font-bold text-center  lg:text-start  ">We design thoughtful, liveable spaces
@@ -177,8 +178,8 @@
 <div class=" bg-base-300 p-3 lg:p-7  ">
       
     <div class="our-works-content space-y-3   ">
-      <a class=" flex justify-center items-center w-5/12 lg:w-2/12 mx-auto btn bg-slate-50 text-md lg:text-2xl rounded-full "> <i
-          class="fa-solid fa-arrow-right  "></i> Book Consult
+      <a class=" flex justify-center items-center w-6/12 lg:w-2/12 mx-auto btn bg-slate-50 text-md lg:text-2xl rounded-full "> <i
+          class="fa-solid fa-arrow-right  "></i>How we works
       </a>
       <div class="text-center space-y-3">
         <h2 class=" text-4xl lg:text-6xl font-bold">Our Works Process</h2>
@@ -211,7 +212,42 @@
 
 </div>
 
-    
+    <!-- carrosoul -->
+     <div class="mt-6 p-6 lg:p-0 ">
+      <div class="our-works-content space-y-3 mb-3  ">
+        <a class=" flex justify-center items-center w-6/12 lg:w-2/12 mx-auto btn bg-slate-50 text-md lg:text-2xl rounded-full "> <i
+            class="fa-solid fa-arrow-right  "></i>Home Decor
+        </a>
+        <div class="text-center space-y-3">
+          <h2 class=" text-4xl lg:text-6xl font-bold">Our Works Process</h2>
+          <p class="text-md">The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+            featuring weathered wood, sleek metal accents.</p>
+        </div>
+      </div>
+      <div class="carousel carousel-end rounded-box ">
+        <div class="carousel-item">
+          <img src="./assets/cc-1.avif" alt="" class="w-[%]">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/ccc-2.zip" alt="" class="w-[%]">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/cc-3.avif" alt="" class="w-[%]">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/cccccc-4.jpg" alt="" class="w-[%]">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/cc-5.avif" alt="" class="w-[%]">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/cc-6.jpg" alt="" class="w-[%]">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/cc-7.jpg" alt="" class="w-[%]">
+        </div>
+      </div>
+     </div>
       
     <!-- our section --> 
      <div class="mt-10 lg:mt-20"> 
@@ -309,10 +345,10 @@
  </div>
 </div> -->
     <!-- Rinterio News -->
-    <div class="bg-slate-100 p-3 lg:p-7  ">
-      <div class="our-works-content space-y-3   ">
+    <div class="bg-slate-100 p-3 lg:p-7   ">
+      <div class="our-works-content space-y-3 mt-5   ">
         <a class=" flex justify-center items-center w-5/12 lg:w-2/12 mx-auto btn bg-slate-50 text-md lg:text-2xl rounded-full "> <i
-            class="fa-solid fa-arrow-right  "></i> Book Consult
+            class="fa-solid fa-arrow-right  "></i> Rinterio News
         </a>
         <div class="text-center space-y-3">
           <h2 class=" text-4xl lg:text-6xl font-bold">Our Works Process</h2>
@@ -322,7 +358,7 @@
       </div>
       <!--  -->
       <div
-        class="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5 lg:p-10 items-center justify-center border border-red-700  mt-5 ">
+        class="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5 lg:p-10 items-center justify-center   mt-5 ">
         <div class="card bg-base-100 w-full shadow-xl">
           <figure class="px-10 pt-10">
             <img src="./assets/article1.png" alt="article1" class="rounded-xl w-full  " />
@@ -413,10 +449,10 @@
       </div>
     </div>
     <!-- input -->
-   <div class="  bg-[url('./assets/bg.jpg')] bg-covers bg-center bg-no-repeat lg:bg-none  ">
-    <div class="our-works-content space-y-3  p-3 lg:p-7	">
-      <a class=" flex justify-center items-center w-5/12 lg:w-2/12 mx-auto btn bg-slate-50 text-md lg:text-2xl rounded-full "> <i
-        class="fa-solid fa-arrow-right  "></i> Book Consult
+   <div class="  bg-[url('./assets/bg.jpg')] bg-covers bg-center bg-no-repeat lg:bg-none mt-1  ">
+    <div class="our-works-content space-y-3  p-3 lg:p-7 	">
+      <a class=" flex justify-center items-center w-6/12 lg:w-2/12 mx-auto btn bg-slate-50 text-md lg:text-2xl rounded-full mt-5"> <i
+        class="fa-solid fa-arrow-right  "></i> Let’s Connect
     </a>
       <div class="text-center space-y-3 mb-3">
         <h2 class=" text-4xl lg:text-6xl font-bold">Read Our Articles and News</h2>
